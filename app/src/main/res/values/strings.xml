@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChatProjectV2</string>
+    <string name="enter_message_here">enter message here</string>
+    <string name="enter_your_message">enter your message</string>
+</resources>
