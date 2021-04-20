@@ -172,7 +172,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addMessage(){
-        val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern  ("dd.MM.YYYY GG:mm")
+        val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern  ("dd.MM.YYYY HH:mm")
         val newMessage: Message = Message(edMessage.text.toString(),
                 currentUser?.email.toString(),
                 formatter.format(LocalDateTime.now()))
