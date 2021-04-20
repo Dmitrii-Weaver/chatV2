@@ -5,8 +5,11 @@
     android:orientation="vertical"
     android:layout_marginRight="5dp"
     android:layout_marginLeft="5dp"
-    android:layout_marginBottom="20dp"
-    android:padding="15dp">
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:padding="15dp"
+    android:background="@drawable/kinda_round_holder"
+    >
 
     <TextView
         android:id="@+id/message"
